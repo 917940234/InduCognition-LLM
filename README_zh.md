@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>中文</strong> | <a href="README.md">English</a>
+  <a href="README.md">English</a> | <strong>中文</strong>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.11-3776AB?logo=python&logoColor=white" alt="Python">
