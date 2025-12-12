@@ -1,0 +1,16 @@
+# 仅存放敏感信息或在线服务差异化配置，勿直接提交生产密钥。
+
+llm:
+  api_key: "YOUR_DEEPSEEK_API_KEY"
+
+embedding:
+  api_key: "YOUR_DASHSCOPE_API_KEY"
+
+rerank:
+  api_key: "YOUR_DASHSCOPE_API_KEY"
+
+evaluation:
+  g_eval_api_key: "YOUR_DEEPSEEK_API_KEY"
+
+sql:
+  dsn: "mysql+pymysql://user:pass@host:3306/dbname"

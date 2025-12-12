@@ -1,0 +1,80 @@
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "告诉我最近3次烘烤任务的情况，记录成表格", "input": "最近3次任务记录（示例占位）", "output": "批次|目标℃|达标时间min|燃气%|风阀%\nT0|1200|30|48|50\nT1|1201|31|49|51\nT2|1202|32|50|52"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "烘烤结束的判断标准是什么？", "input": "目标1203℃，当前1183℃，升温率2.0℃/min，温差20℃，保温计划10min", "output": "达到目标温度并稳定保温≥10min，温差<20℃，关键测点无下降趋势，可判定结束；若温差>20℃需延长均热。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "之前的烘烤过程中，最快的是哪次？参数多少？", "input": "最近任务耗时：32, 36, 40 min；对应燃气50/52/48%，风阀52/53/50%", "output": "最快32分钟（燃气50%、风阀52%）；曲线较积极，适合低包龄，建议高包龄适当放缓以防过烧。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "紧急停机的操作流程是什么？", "input": "需要紧急停机，当前火焰稳定，温度1185℃", "output": "流程：1) 立即切断燃气主阀；2) 逐步关闭风阀防止回火；3) 监测温度/压力直至稳定；4) 记录停机原因与参数。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的这个钢包在上一次烘烤时，花了多长时间达到目标温度", "input": "当前钢包编号#5，上次目标1212℃", "output": "上次达标耗时约38分钟（包龄略低）。若当前包龄更高，预计耗时可+3~5分钟。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "新钢包首次烘烤有什么特殊要求？", "input": "新钢包，目标1215℃", "output": "首次需缓升温：初始15分钟保持低流量，逐步提升燃气/风阀；关注炉衬干燥，防止快速升温导致裂纹。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "15号钢包上次烘烤时，出现过温度超调的情况吗？", "input": "15号钢包上次曲线记录：峰值1215℃，过冲+8℃", "output": "出现过轻微超调（+8℃），原因可能是富燃比过高。下次建议差值<20℃时提前下调燃气3~5%，缩短过冲。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的钢包使用多久了", "input": "当前钢包编号#8", "output": "当前包龄约30~40炉次（示例占位），建议结合实际数据库确认。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "告诉我最近3次烘烤任务的情况，记录成表格", "input": "最近3次任务记录（示例占位）", "output": "批次|目标℃|达标时间min|燃气%|风阀%\nT0|1224|46|48|50\nT1|1225|47|49|51\nT2|1226|48|50|52"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "烘烤结束的判断标准是什么？", "input": "目标1227℃，当前1207℃，升温率2.0℃/min，温差20℃，保温计划10min", "output": "达到目标温度并稳定保温≥10min，温差<20℃，关键测点无下降趋势，可判定结束；若温差>20℃需延长均热。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "之前的烘烤过程中，最快的是哪次？参数多少？", "input": "最近任务耗时：32, 36, 40 min；对应燃气50/52/48%，风阀52/53/50%", "output": "最快32分钟（燃气50%、风阀52%）；曲线较积极，适合低包龄，建议高包龄适当放缓以防过烧。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "紧急停机的操作流程是什么？", "input": "需要紧急停机，当前火焰稳定，温度1185℃", "output": "流程：1) 立即切断燃气主阀；2) 逐步关闭风阀防止回火；3) 监测温度/压力直至稳定；4) 记录停机原因与参数。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的这个钢包在上一次烘烤时，花了多长时间达到目标温度", "input": "当前钢包编号#13，上次目标1206℃", "output": "上次达标耗时约30分钟（包龄略低）。若当前包龄更高，预计耗时可+3~5分钟。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "新钢包首次烘烤有什么特殊要求？", "input": "新钢包，目标1209℃", "output": "首次需缓升温：初始15分钟保持低流量，逐步提升燃气/风阀；关注炉衬干燥，防止快速升温导致裂纹。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "15号钢包上次烘烤时，出现过温度超调的情况吗？", "input": "15号钢包上次曲线记录：峰值1215℃，过冲+8℃", "output": "出现过轻微超调（+8℃），原因可能是富燃比过高。下次建议差值<20℃时提前下调燃气3~5%，缩短过冲。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的钢包使用多久了", "input": "当前钢包编号#16", "output": "当前包龄约30~40炉次（示例占位），建议结合实际数据库确认。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "告诉我最近3次烘烤任务的情况，记录成表格", "input": "最近3次任务记录（示例占位）", "output": "批次|目标℃|达标时间min|燃气%|风阀%\nT0|1218|38|48|50\nT1|1219|39|49|51\nT2|1220|40|50|52"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "烘烤结束的判断标准是什么？", "input": "目标1221℃，当前1231℃，升温率2.0℃/min，温差20℃，保温计划10min", "output": "达到目标温度并稳定保温≥10min，温差<20℃，关键测点无下降趋势，可判定结束；若温差>20℃需延长均热。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "之前的烘烤过程中，最快的是哪次？参数多少？", "input": "最近任务耗时：32, 36, 40 min；对应燃气50/52/48%，风阀52/53/50%", "output": "最快32分钟（燃气50%、风阀52%）；曲线较积极，适合低包龄，建议高包龄适当放缓以防过烧。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "紧急停机的操作流程是什么？", "input": "需要紧急停机，当前火焰稳定，温度1185℃", "output": "流程：1) 立即切断燃气主阀；2) 逐步关闭风阀防止回火；3) 监测温度/压力直至稳定；4) 记录停机原因与参数。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的这个钢包在上一次烘烤时，花了多长时间达到目标温度", "input": "当前钢包编号#1，上次目标1200℃", "output": "上次达标耗时约46分钟（包龄略低）。若当前包龄更高，预计耗时可+3~5分钟。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "新钢包首次烘烤有什么特殊要求？", "input": "新钢包，目标1203℃", "output": "首次需缓升温：初始15分钟保持低流量，逐步提升燃气/风阀；关注炉衬干燥，防止快速升温导致裂纹。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "15号钢包上次烘烤时，出现过温度超调的情况吗？", "input": "15号钢包上次曲线记录：峰值1215℃，过冲+8℃", "output": "出现过轻微超调（+8℃），原因可能是富燃比过高。下次建议差值<20℃时提前下调燃气3~5%，缩短过冲。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的钢包使用多久了", "input": "当前钢包编号#4", "output": "当前包龄约30~40炉次（示例占位），建议结合实际数据库确认。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "告诉我最近3次烘烤任务的情况，记录成表格", "input": "最近3次任务记录（示例占位）", "output": "批次|目标℃|达标时间min|燃气%|风阀%\nT0|1212|30|48|50\nT1|1213|31|49|51\nT2|1214|32|50|52"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "烘烤结束的判断标准是什么？", "input": "目标1215℃，当前1255℃，升温率2.0℃/min，温差20℃，保温计划10min", "output": "达到目标温度并稳定保温≥10min，温差<20℃，关键测点无下降趋势，可判定结束；若温差>20℃需延长均热。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "之前的烘烤过程中，最快的是哪次？参数多少？", "input": "最近任务耗时：32, 36, 40 min；对应燃气50/52/48%，风阀52/53/50%", "output": "最快32分钟（燃气50%、风阀52%）；曲线较积极，适合低包龄，建议高包龄适当放缓以防过烧。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "紧急停机的操作流程是什么？", "input": "需要紧急停机，当前火焰稳定，温度1185℃", "output": "流程：1) 立即切断燃气主阀；2) 逐步关闭风阀防止回火；3) 监测温度/压力直至稳定；4) 记录停机原因与参数。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的这个钢包在上一次烘烤时，花了多长时间达到目标温度", "input": "当前钢包编号#9，上次目标1224℃", "output": "上次达标耗时约38分钟（包龄略低）。若当前包龄更高，预计耗时可+3~5分钟。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "新钢包首次烘烤有什么特殊要求？", "input": "新钢包，目标1227℃", "output": "首次需缓升温：初始15分钟保持低流量，逐步提升燃气/风阀；关注炉衬干燥，防止快速升温导致裂纹。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "15号钢包上次烘烤时，出现过温度超调的情况吗？", "input": "15号钢包上次曲线记录：峰值1215℃，过冲+8℃", "output": "出现过轻微超调（+8℃），原因可能是富燃比过高。下次建议差值<20℃时提前下调燃气3~5%，缩短过冲。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的钢包使用多久了", "input": "当前钢包编号#12", "output": "当前包龄约30~40炉次（示例占位），建议结合实际数据库确认。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "告诉我最近3次烘烤任务的情况，记录成表格", "input": "最近3次任务记录（示例占位）", "output": "批次|目标℃|达标时间min|燃气%|风阀%\nT0|1206|46|48|50\nT1|1207|47|49|51\nT2|1208|48|50|52"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "烘烤结束的判断标准是什么？", "input": "目标1209℃，当前1199℃，升温率2.0℃/min，温差20℃，保温计划10min", "output": "达到目标温度并稳定保温≥10min，温差<20℃，关键测点无下降趋势，可判定结束；若温差>20℃需延长均热。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "之前的烘烤过程中，最快的是哪次？参数多少？", "input": "最近任务耗时：32, 36, 40 min；对应燃气50/52/48%，风阀52/53/50%", "output": "最快32分钟（燃气50%、风阀52%）；曲线较积极，适合低包龄，建议高包龄适当放缓以防过烧。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "紧急停机的操作流程是什么？", "input": "需要紧急停机，当前火焰稳定，温度1185℃", "output": "流程：1) 立即切断燃气主阀；2) 逐步关闭风阀防止回火；3) 监测温度/压力直至稳定；4) 记录停机原因与参数。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的这个钢包在上一次烘烤时，花了多长时间达到目标温度", "input": "当前钢包编号#17，上次目标1218℃", "output": "上次达标耗时约30分钟（包龄略低）。若当前包龄更高，预计耗时可+3~5分钟。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "新钢包首次烘烤有什么特殊要求？", "input": "新钢包，目标1221℃", "output": "首次需缓升温：初始15分钟保持低流量，逐步提升燃气/风阀；关注炉衬干燥，防止快速升温导致裂纹。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "15号钢包上次烘烤时，出现过温度超调的情况吗？", "input": "15号钢包上次曲线记录：峰值1215℃，过冲+8℃", "output": "出现过轻微超调（+8℃），原因可能是富燃比过高。下次建议差值<20℃时提前下调燃气3~5%，缩短过冲。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的钢包使用多久了", "input": "当前钢包编号#20", "output": "当前包龄约30~40炉次（示例占位），建议结合实际数据库确认。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "告诉我最近3次烘烤任务的情况，记录成表格", "input": "最近3次任务记录（示例占位）", "output": "批次|目标℃|达标时间min|燃气%|风阀%\nT0|1200|38|48|50\nT1|1201|39|49|51\nT2|1202|40|50|52"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "烘烤结束的判断标准是什么？", "input": "目标1203℃，当前1223℃，升温率2.0℃/min，温差20℃，保温计划10min", "output": "达到目标温度并稳定保温≥10min，温差<20℃，关键测点无下降趋势，可判定结束；若温差>20℃需延长均热。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "之前的烘烤过程中，最快的是哪次？参数多少？", "input": "最近任务耗时：32, 36, 40 min；对应燃气50/52/48%，风阀52/53/50%", "output": "最快32分钟（燃气50%、风阀52%）；曲线较积极，适合低包龄，建议高包龄适当放缓以防过烧。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "紧急停机的操作流程是什么？", "input": "需要紧急停机，当前火焰稳定，温度1185℃", "output": "流程：1) 立即切断燃气主阀；2) 逐步关闭风阀防止回火；3) 监测温度/压力直至稳定；4) 记录停机原因与参数。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的这个钢包在上一次烘烤时，花了多长时间达到目标温度", "input": "当前钢包编号#5，上次目标1212℃", "output": "上次达标耗时约46分钟（包龄略低）。若当前包龄更高，预计耗时可+3~5分钟。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "新钢包首次烘烤有什么特殊要求？", "input": "新钢包，目标1215℃", "output": "首次需缓升温：初始15分钟保持低流量，逐步提升燃气/风阀；关注炉衬干燥，防止快速升温导致裂纹。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "15号钢包上次烘烤时，出现过温度超调的情况吗？", "input": "15号钢包上次曲线记录：峰值1215℃，过冲+8℃", "output": "出现过轻微超调（+8℃），原因可能是富燃比过高。下次建议差值<20℃时提前下调燃气3~5%，缩短过冲。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的钢包使用多久了", "input": "当前钢包编号#8", "output": "当前包龄约30~40炉次（示例占位），建议结合实际数据库确认。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "告诉我最近3次烘烤任务的情况，记录成表格", "input": "最近3次任务记录（示例占位）", "output": "批次|目标℃|达标时间min|燃气%|风阀%\nT0|1224|30|48|50\nT1|1225|31|49|51\nT2|1226|32|50|52"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "烘烤结束的判断标准是什么？", "input": "目标1227℃，当前1247℃，升温率2.0℃/min，温差20℃，保温计划10min", "output": "达到目标温度并稳定保温≥10min，温差<20℃，关键测点无下降趋势，可判定结束；若温差>20℃需延长均热。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "之前的烘烤过程中，最快的是哪次？参数多少？", "input": "最近任务耗时：32, 36, 40 min；对应燃气50/52/48%，风阀52/53/50%", "output": "最快32分钟（燃气50%、风阀52%）；曲线较积极，适合低包龄，建议高包龄适当放缓以防过烧。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "紧急停机的操作流程是什么？", "input": "需要紧急停机，当前火焰稳定，温度1185℃", "output": "流程：1) 立即切断燃气主阀；2) 逐步关闭风阀防止回火；3) 监测温度/压力直至稳定；4) 记录停机原因与参数。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的这个钢包在上一次烘烤时，花了多长时间达到目标温度", "input": "当前钢包编号#13，上次目标1206℃", "output": "上次达标耗时约38分钟（包龄略低）。若当前包龄更高，预计耗时可+3~5分钟。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "新钢包首次烘烤有什么特殊要求？", "input": "新钢包，目标1209℃", "output": "首次需缓升温：初始15分钟保持低流量，逐步提升燃气/风阀；关注炉衬干燥，防止快速升温导致裂纹。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "15号钢包上次烘烤时，出现过温度超调的情况吗？", "input": "15号钢包上次曲线记录：峰值1215℃，过冲+8℃", "output": "出现过轻微超调（+8℃），原因可能是富燃比过高。下次建议差值<20℃时提前下调燃气3~5%，缩短过冲。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的钢包使用多久了", "input": "当前钢包编号#16", "output": "当前包龄约30~40炉次（示例占位），建议结合实际数据库确认。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "告诉我最近3次烘烤任务的情况，记录成表格", "input": "最近3次任务记录（示例占位）", "output": "批次|目标℃|达标时间min|燃气%|风阀%\nT0|1218|46|48|50\nT1|1219|47|49|51\nT2|1220|48|50|52"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "烘烤结束的判断标准是什么？", "input": "目标1221℃，当前1191℃，升温率2.0℃/min，温差20℃，保温计划10min", "output": "达到目标温度并稳定保温≥10min，温差<20℃，关键测点无下降趋势，可判定结束；若温差>20℃需延长均热。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "之前的烘烤过程中，最快的是哪次？参数多少？", "input": "最近任务耗时：32, 36, 40 min；对应燃气50/52/48%，风阀52/53/50%", "output": "最快32分钟（燃气50%、风阀52%）；曲线较积极，适合低包龄，建议高包龄适当放缓以防过烧。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "紧急停机的操作流程是什么？", "input": "需要紧急停机，当前火焰稳定，温度1185℃", "output": "流程：1) 立即切断燃气主阀；2) 逐步关闭风阀防止回火；3) 监测温度/压力直至稳定；4) 记录停机原因与参数。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的这个钢包在上一次烘烤时，花了多长时间达到目标温度", "input": "当前钢包编号#1，上次目标1200℃", "output": "上次达标耗时约30分钟（包龄略低）。若当前包龄更高，预计耗时可+3~5分钟。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "新钢包首次烘烤有什么特殊要求？", "input": "新钢包，目标1203℃", "output": "首次需缓升温：初始15分钟保持低流量，逐步提升燃气/风阀；关注炉衬干燥，防止快速升温导致裂纹。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "15号钢包上次烘烤时，出现过温度超调的情况吗？", "input": "15号钢包上次曲线记录：峰值1215℃，过冲+8℃", "output": "出现过轻微超调（+8℃），原因可能是富燃比过高。下次建议差值<20℃时提前下调燃气3~5%，缩短过冲。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的钢包使用多久了", "input": "当前钢包编号#4", "output": "当前包龄约30~40炉次（示例占位），建议结合实际数据库确认。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "告诉我最近3次烘烤任务的情况，记录成表格", "input": "最近3次任务记录（示例占位）", "output": "批次|目标℃|达标时间min|燃气%|风阀%\nT0|1212|38|48|50\nT1|1213|39|49|51\nT2|1214|40|50|52"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "烘烤结束的判断标准是什么？", "input": "目标1215℃，当前1215℃，升温率2.0℃/min，温差20℃，保温计划10min", "output": "达到目标温度并稳定保温≥10min，温差<20℃，关键测点无下降趋势，可判定结束；若温差>20℃需延长均热。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "之前的烘烤过程中，最快的是哪次？参数多少？", "input": "最近任务耗时：32, 36, 40 min；对应燃气50/52/48%，风阀52/53/50%", "output": "最快32分钟（燃气50%、风阀52%）；曲线较积极，适合低包龄，建议高包龄适当放缓以防过烧。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "紧急停机的操作流程是什么？", "input": "需要紧急停机，当前火焰稳定，温度1185℃", "output": "流程：1) 立即切断燃气主阀；2) 逐步关闭风阀防止回火；3) 监测温度/压力直至稳定；4) 记录停机原因与参数。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的这个钢包在上一次烘烤时，花了多长时间达到目标温度", "input": "当前钢包编号#9，上次目标1224℃", "output": "上次达标耗时约46分钟（包龄略低）。若当前包龄更高，预计耗时可+3~5分钟。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "新钢包首次烘烤有什么特殊要求？", "input": "新钢包，目标1227℃", "output": "首次需缓升温：初始15分钟保持低流量，逐步提升燃气/风阀；关注炉衬干燥，防止快速升温导致裂纹。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "15号钢包上次烘烤时，出现过温度超调的情况吗？", "input": "15号钢包上次曲线记录：峰值1215℃，过冲+8℃", "output": "出现过轻微超调（+8℃），原因可能是富燃比过高。下次建议差值<20℃时提前下调燃气3~5%，缩短过冲。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的钢包使用多久了", "input": "当前钢包编号#12", "output": "当前包龄约30~40炉次（示例占位），建议结合实际数据库确认。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "告诉我最近3次烘烤任务的情况，记录成表格", "input": "最近3次任务记录（示例占位）", "output": "批次|目标℃|达标时间min|燃气%|风阀%\nT0|1206|30|48|50\nT1|1207|31|49|51\nT2|1208|32|50|52"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "烘烤结束的判断标准是什么？", "input": "目标1209℃，当前1239℃，升温率2.0℃/min，温差20℃，保温计划10min", "output": "达到目标温度并稳定保温≥10min，温差<20℃，关键测点无下降趋势，可判定结束；若温差>20℃需延长均热。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "之前的烘烤过程中，最快的是哪次？参数多少？", "input": "最近任务耗时：32, 36, 40 min；对应燃气50/52/48%，风阀52/53/50%", "output": "最快32分钟（燃气50%、风阀52%）；曲线较积极，适合低包龄，建议高包龄适当放缓以防过烧。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "紧急停机的操作流程是什么？", "input": "需要紧急停机，当前火焰稳定，温度1185℃", "output": "流程：1) 立即切断燃气主阀；2) 逐步关闭风阀防止回火；3) 监测温度/压力直至稳定；4) 记录停机原因与参数。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的这个钢包在上一次烘烤时，花了多长时间达到目标温度", "input": "当前钢包编号#17，上次目标1218℃", "output": "上次达标耗时约38分钟（包龄略低）。若当前包龄更高，预计耗时可+3~5分钟。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "新钢包首次烘烤有什么特殊要求？", "input": "新钢包，目标1221℃", "output": "首次需缓升温：初始15分钟保持低流量，逐步提升燃气/风阀；关注炉衬干燥，防止快速升温导致裂纹。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "15号钢包上次烘烤时，出现过温度超调的情况吗？", "input": "15号钢包上次曲线记录：峰值1215℃，过冲+8℃", "output": "出现过轻微超调（+8℃），原因可能是富燃比过高。下次建议差值<20℃时提前下调燃气3~5%，缩短过冲。"}
+{"scenario": "Scenario 4 - History & documentation query", "instruction": "当前烘烤的钢包使用多久了", "input": "当前钢包编号#20", "output": "当前包龄约30~40炉次（示例占位），建议结合实际数据库确认。"}

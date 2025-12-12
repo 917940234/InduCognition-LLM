@@ -1,0 +1,12 @@
+# Ignore non-versioned drawing / plotting scripts
+paper/
+docs/paper_to_code.md
+codex_project_memory.md
+
+# Local environment and secrets
+.env
+configs/providers.yaml
+
+# Vector store persistence
+storage/
+!storage/.gitkeep

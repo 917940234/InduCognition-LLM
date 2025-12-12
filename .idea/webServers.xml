@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="adc0a311-3a18-4911-b09f-08a93f9c7924" name="i7bvt06bazexjnqusnow.deepln.com">
+        <fileTransfer accessType="SFTP" host="i7bvt06bazexjnqusnow.deepln.com" port="55707" sshConfigId="9afa6ca1-d69c-409d-a624-04028aead584" sshConfig="root@i7bvt06bazexjnqusnow.deepln.com:55707 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

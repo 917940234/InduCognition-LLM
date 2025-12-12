@@ -1,0 +1,76 @@
+# 全局默认配置（可在 providers.yaml 或环境变量中覆盖敏感信息）
+
+agent:
+  d_max: 3
+  b_max: 4
+  routing_threshold: 0.65
+  tool_utility_threshold: 0.55
+  max_tool_chain: 3
+  tool_timeout_sec: 20
+  max_iterations: 6
+  alpha_tool: 0.6
+
+retrieval:
+  parent_delimiter: "\n\n"
+  child_delimiters: ["\n", ",", "."]
+  parent_max_tokens: 500
+  child_max_tokens: 200
+  overlap: 50
+  top_k: 3
+  score_threshold: 0.5
+  lambda_hybrid: 0.5
+  gamma_filter: 1.0
+  expected_chunk_len: 200
+  llm_context_len: 4096
+
+vector_store:
+  persist_path: "storage/chroma_docs"
+  collection: "docs"
+  embedding_model: "text-embedding-v3"
+
+bm25:
+  k1: 1.5
+  b: 0.75
+
+llm:
+  model: "deepseek-chat"
+  base_url: "https://api.deepseek.com"
+  temperature: 0.3
+  top_p: 0.8
+  top_k: 40
+  max_tokens: 4096
+  frequency_penalty: 1.1
+
+embedding:
+  model: "text-embedding-v3"
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+
+rerank:
+  model: "qwen3-rerank"
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  top_n: 50
+
+sql:
+  t_max: 6
+  execution_timeout_sec: 20
+  max_rows: 1000
+  dsn: "mysql+pymysql://user:pass@localhost:3306/indu_cognition"
+  memory_store:
+    persist_path: "storage/chroma_sqlmem"
+    collection: "sqlmem"
+
+evaluation:
+  bertscore_model: "microsoft/deberta-base-mnli"
+  use_g_eval: true
+  g_eval_model: "deepseek-chat"
+  applause_rubric:
+    accuracy: 0.4
+    relevance: 0.3
+    completeness: 0.15
+    clarity: 0.1
+    language_grammar: 0.05
+
+logging:
+  level: "INFO"
+  json: false
+  log_dir: "logs"
